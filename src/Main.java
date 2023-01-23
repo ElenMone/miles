@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        int x = 10000;
-        byte a = 20;
-        int o = (x / a);
-        int m = (o / a);
+        int price = 10000;
+        byte oneMile = 20;
+        int calculation = (price / oneMile);
+        int bonusMile = (calculation / oneMile);
 
 
-        System.out.println("Начислено миль " + m);
+        System.out.println("Начислено миль " + bonusMile);
     }
 }
